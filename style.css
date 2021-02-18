@@ -1,0 +1,105 @@
+h1 { text-align: center;
+    line-height: 1;
+    font-size: 70px;
+    font-family: fantasy;
+    color: rgb(175, 221, 217);
+    padding-top: 100px;
+    
+}
+p{
+        font-size: 30px;
+        font-weight: bold;
+        color: turquoise;
+        
+}    
+li   {
+    font-size: 20px;
+    height: 20px;
+    background-color: powderblue;
+    border-style: solid;
+    list-style-type: none;
+    list-style: none;
+    margin-right: -60px;
+    color: black;
+} 
+ul li:nth-of-type(1):hover {
+   background-color: red
+}
+ul li:nth-of-type(2):hover{
+    background-color: royalblue;
+}
+ul li:nth-of-type(3):hover{
+    background-color: rgb(56, 221, 128);
+}
+ul li:nth-of-type(4):hover{
+    background-color: rgb(153, 19, 82);
+}
+ul li:nth-of-type(5):hover{
+    background-color: violet;
+}
+ul li:nth-of-type(6):hover{
+    background-color: yellow;
+}
+ul li:nth-of-type(7):hover{
+    background-color: rgb(166, 3, 187);
+}
+
+div img {
+   width: 300px;
+   border-radius: 50%;
+   bottom: 100px;
+   position: relative;
+
+}
+
+.link {
+    
+   
+   background-color: tomato;
+   position: absolute;
+   left: 1700px;
+   bottom: 570px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   
+}
+.habilidades {
+    position: relative;
+    color: white;
+    top: 100px;
+    right: 50px;
+}
+
+#instagram {
+    width: 50px;
+   padding-right: 20px;
+}
+#youtube{
+    width: 70px;
+    padding-right: 20px;
+}
+#github{
+    width: 70px;
+    padding-right: 20px;
+}
+
+.fundo{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlixOJCMYpj5Pr_QN8XYQAQDjoDRU6TpAy7w&usqp=CAU)
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: turquoise;
+}
+header{
+    background-image: url(https://miro.medium.com/max/2880/1*f95WNOB8C7PoM2KzsRZomQ.png);
+    margin: -10px;
+   margin-top: -50px;
+   background-size: cover;
+ 
+}
+body{
+    background-color: black;
+}
