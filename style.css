@@ -105,30 +105,7 @@ body{
     bottom: 300px;
     left: 900px;
 }
-.goku img:nth-of-type(2){
-    position : absolute;
-    z-index: 2;
-    width: 300px;
-    border-radius: 50%;
-    bottom: 150px;
-    left: 900px;
-}   
-.goku img:nth-of-type(3){
-    position : absolute;
-    z-index: 3;
-    width: 90px;
-    border-radius: 50%;
-    bottom: 60px;
-    left: 600px;
-}
-.goku img:nth-of-type(4){
-    position : absolute;
-    z-index: 4;
-    width: 300px;
-    border-radius: 50%;
-    bottom: 300px;
-    left: 1200px;
-}
+
 *{
     margin: 0;
     padding: 0;
