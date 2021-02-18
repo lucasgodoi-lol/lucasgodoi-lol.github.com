@@ -79,7 +79,7 @@ div img {
     padding-right: 20px;
 }
 
-h3 {
+h2 {
     text-align: center;
     font-size: 30px;
     color: turquoise;
@@ -105,8 +105,43 @@ body{
     bottom: 300px;
     left: 900px;
 }
-
-*{
-    margin: 0;
-    padding: 0;
+.goku img:nth-of-type(1){
+    position : absolute;
+    z-index: 2;
+    width: 150px;
+    border-radius: 50%;
+  top: 700px;
+    left: 1600px;
+}   
+.goku img:nth-of-type(2){
+    position : absolute;
+    z-index: 3;
+    width: 120px;
+    border-radius: 50%;
+    top: 700px;
+    left: 300px;
+}
+.goku img:nth-of-type(3){
+    position : absolute;
+    z-index: 4;
+    width: 200px;
+    border-radius: 50%;
+    bottom: 200px;
+    left: 1400px;
+}
+.goku img:nth-of-type(4){
+    position : absolute;
+    z-index: 5;
+    width: 200px;
+    border-radius: 50%;
+    bottom: 400px;
+    left: 1400px;
+}
+.goku img:nth-of-type(5){
+    position : absolute;
+    z-index: 5;
+    width: 200px;
+    border-radius: 50%;
+    bottom: 300px;
+    left: 1200px;
 }
