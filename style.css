@@ -93,11 +93,6 @@ header{
 body{
     background-color: black;
 }
-.goku {
-    text-align: center;
-    width: 40px;
-}
-
 .goku img:nth-of-type(1){
     position : absolute;
     z-index: 1;
