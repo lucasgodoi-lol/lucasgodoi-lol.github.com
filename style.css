@@ -126,7 +126,7 @@ body{
     z-index: 4;
     width: 200px;
     border-radius: 50%;
-    bottom: 200px;
+    bottom: 300px;
     left: 1400px;
 }
 .goku img:nth-of-type(4){
@@ -134,14 +134,14 @@ body{
     z-index: 5;
     width: 200px;
     border-radius: 50%;
-    bottom: 400px;
-    left: 1400px;
+    bottom: 600px;
+    left: 1600px;
 }
 .goku img:nth-of-type(5){
     position : absolute;
     z-index: 5;
     width: 200px;
     border-radius: 50%;
-    bottom: 300px;
-    left: 1200px;
+    bottom: 400px;
+    left: 1600px;
 }
