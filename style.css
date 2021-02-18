@@ -54,8 +54,6 @@ div img {
 
 .link {
     
-   
-   background-color: tomato;
    position: absolute;
    left: 1700px;
    bottom: 570px;
@@ -82,11 +80,6 @@ div img {
     width: 70px;
     padding-right: 20px;
 }
-
-.fundo{
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlixOJCMYpj5Pr_QN8XYQAQDjoDRU6TpAy7w&usqp=CAU)
-}
-
 
 h3 {
     text-align: center;
