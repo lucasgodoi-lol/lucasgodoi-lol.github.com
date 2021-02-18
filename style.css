@@ -93,3 +93,13 @@ header{
 body{
     background-color: black;
 }
+.goku img {
+    width: 250px;
+    border-radius: 50%;
+}
+.goku img:nth-last-of-type(1){
+    position: absolute;
+    left: 1700px;
+    z-index: 1;
+    bottom: 300px;
+}
