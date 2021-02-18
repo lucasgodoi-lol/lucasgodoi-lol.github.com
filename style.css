@@ -114,11 +114,11 @@ body{
 }
 @keyframes botaoanim {
     0%{
-        top: 0px;
+        top: 80px;
         
     }
     100% {
-        top: 100px;
+        top: 160px;
     }
 }
 #botao2{
