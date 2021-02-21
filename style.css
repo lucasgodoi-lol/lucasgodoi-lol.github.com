@@ -3,31 +3,53 @@
     padding: 0;
     box-sizing: 0;
   }
-  .cabeçalho{
-     background-color: rgb(21, 136, 230);
-     
+header{
+  background-color: rgb(28, 153, 236);
+}
+
+  .cabeçalhoh1{
+     display: flex;
+     justify-content: flex-start;
   }
       h1{
-     left: 900px;
-    position: absolute;
-    top: 5px;
     letter-spacing: 3px;
     font-weight: bolder;
     color: rgb(198, 201, 202);
-    
+    margin-top: 15px;
+    margin-left: 100px;
   }
-
-nav a img{
-    width: 35px;
-    
-  }
-  .marginIcones {
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+  
+  
+}
+  .home {
     margin-right: 20px;
-    width: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    bottom: 25px;
+    position: relative;
   }
-#sociais{
+  .habilidades{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 5px;
+    bottom: 25px;
+    position: relative;
+  }
+.social{
     width: 40px;
     margin-left: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    bottom: 25px;
+    position: relative;
+    
 }
 div header {
     
