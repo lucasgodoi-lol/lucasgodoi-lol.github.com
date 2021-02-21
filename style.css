@@ -4,13 +4,24 @@
     box-sizing: 0;
   }
   .cabeçalho{
-    padding: 1vh;
-     background-color: rgb(6, 85, 204);
+     background-color: rgb(21, 136, 230);
+     
   }
-  nav a img{
+      h1{
+     left: 900px;
+    position: absolute;
+    top: 5px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: rgb(198, 201, 202);
+    
+  }
+
+nav a img{
     width: 35px;
+    
   }
-  .margin {
+  .marginIcones {
     margin-right: 20px;
     width: 40px;
   }
@@ -19,15 +30,26 @@
     margin-left: 20px;
 }
 div header {
-    display: flex;
-    justify-content: center;
-    background-image: url(https://www.assespropr.org.br/wp-content/uploads/2019/05/Voc%C3%AA-sabe-que-tipo-de-profissional-de-TI-as-empresas-est%C3%A3o-contratando.jpg);
-    padding: 50px;
+    
+    background-image: url(https://image.freepik.com/free-vector/future-abstract-technology-background_1406-110.jpg);
+    padding :50px;
     background-size: cover;
 }
 .minhaFoto{
-    width: 400px;
+    width: 300px;
     border-radius: 50%;
-   
-
+    margin-top: 3vh;
+    border: 10px ridge black;
+    position: relative;
+    left: 200px;
+    
+}
+p{
+    color: rgb(190, 190, 190);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 100px;
+    position: absolute;
+    
 }
