@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+body{
+  background-color: rgb(0, 59, 168);
+}
+header{
+  background-color: rgb(0, 1, 2);
+  padding: 10px;
+}
+
+  .cabeçalhoh1{
+     display: flex;
+     justify-content: flex-start;
+  }
+      h1{
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: rgb(190, 190, 190);
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+  
+  
+}
+  .home {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    bottom: 25px;
+    position: relative;
+  }
+  .habilidades{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 5px;
+    bottom: 25px;
+    position: relative;
+  }
+.social{
+    width: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    bottom: 25px;
+    position: relative;
+    
+}
+main {
+    
+    background-image: url(https://image.freepik.com/free-vector/future-abstract-technology-background_1406-110.jpg);
+    padding :90px;
+    background-size: cover;
+    margin-top: 10px;
+    
+}
+.minhaFoto{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 3vh;
+    border: 5px ridge black;
+    position: relative;
+    left: 200px;
+    padding: 5px;
+    background-color: black;
+    
+}
+p{
+    color: rgb(190, 190, 190);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 100px;
+    position: absolute;
+    
+}
+.Skills{
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: rgb(190, 190, 190);
+  background-color: rgb(0, 10, 15);
+  padding: 20px;
+ 
+  
+}
+.Skills img {
+  width: 130px;
+}
+section{
+  background-color: rgb(94, 94, 206);
+}
+
+footer{
+  padding: 10px;
+background-color: rgb(148, 148, 148);
+
+}
+
+ul{
+   list-style: none;
+
+
+}
+ul li a img{
+  width: 30px;
+}
+li{
+  display: inline-block;
+  margin-right: 50px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-right: 42px ;
+}
