@@ -104,10 +104,29 @@ h2{
   width: 130px;
 }
 section{
-  background-color: rgb(147, 147, 170);
+  background-color: rgb(94, 94, 206);
 }
 
 footer{
-  padding: 50px;
-  background-color: burlywood;
+  padding: 10px;
+background-color: rgb(148, 148, 148);
+
+}
+
+ul{
+   list-style: none;
+
+
+}
+ul li a img{
+  width: 30px;
+}
+li{
+  display: inline-block;
+  margin-right: 50px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-right: 42px ;
 }
