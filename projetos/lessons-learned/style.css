@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(7, 7, 7);
+  text-align: center;
+  font-family: monospace;
+  font-weight: 900;
+  margin-top: -15px;
+}
+
+#titulo {
+  color: rgb(195, 216, 216);
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 15px;
+}
+
+.nav-header li {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 40%;
+  border: 10px solid black;
+  padding: 5px;
+  background-color: black;
+}
+
+.centralizando_foto {
+  text-align: center;
+}
+
+.centralizar_nome {
+  display: block;
+  font-size: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(179, 177, 184);
+  font-weight: 900;
+  background-color: rgb(30, 30, 167);
+  padding: 20px;
+  letter-spacing: 5px;
+  font-family: monospace;
+}
+
+section {
+  background-image: url('https://wallpaperaccess.com/full/796835.jpg');
+  margin-right: -8px;
+  margin-left: -8px;
+  background-size: cover;
+}
+
+#licoes_aprendidas {
+  font-size: 20px;
+  color: rgb(248, 197, 204);
+  font-weight: 900;
+  display: inline-block;
+  background-image: url('https://images8.alphacoders.com/595/thumb-350-595000.jpg');
+}
+
+#licoes_a_aprender {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(248, 197, 204);
+  display: inline-block;
+  margin-bottom: 80px;
+  margin-top: 100px;
+  background-image: url('https://images8.alphacoders.com/595/thumb-350-595000.jpg');
+}
+
+h2 {
+  background-color: rgb(88, 12, 150);
+  color: rgb(212, 216, 219);
+  font-size: 30px;
+  padding: 10px;
+}
+
+#subindo_h2_liçoes {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: -22px;
+  color: rgb(130, 130, 202);
+}
+
+#footer {
+  color: blueviolet;
+  font-size: 13px;
+  margin-left: 10px;
+  position: relative;
+  top: 40px;
+}
+
+
+#rodape {
+  background-color: rgb(3, 3, 3);
+  margin-left: -10px;
+  margin-bottom: -18px;
+  margin-right: -10px;
+}
+
+#colocando_linha {
+  list-style: none;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
+  margin-right: -20px;
+}
+
+#colocando_linha li {
+  display: inline-block;
+}
+
+li a img {
+  width: 50px;
+  margin-left: 25px;
+}
+
+article {
+  margin-left: -8px;
+  margin-top: -25px;
+}
+
+#subindo_section_article {
+  margin-top: -25px;
+}
+
+.paragrafo {
+  font-size: 25px;
+  color: rgb(160, 159, 159);
+  background-color: rgb(36, 12, 143);
+  padding: 20px;
+  margin: auto;
+  margin-top: -25px;
+  margin-bottom: -15px;
+  font-family: cursive;
+}
+
+aside {
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+#favoritos {
+  text-align: center;
+  padding: 10px;
+}
+
+.tabela {
+  color: rgb(196, 209, 219);
+  margin-top: -25px;
+  margin-bottom: -15px;
+  background-color: rgb(196, 209, 219);
+}
+
+table {
+  width: 250px;
+  margin: auto;
+  background-color: rgb(130, 130, 202);
+  border: 2px solid black;
+  position: relative;
+  top: -10px;
+}
+
+td , tr {
+  border: solid 10px rgb(7, 7, 7);
+  padding: 15px;
+}
+
+.ajeitando {
+  display: flex;
+}
+
+.lado-esquerdo , .lado-direito {
+  margin: 0;
+}
+
